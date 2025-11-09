@@ -444,6 +444,7 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#031026 0%, #07
 /* First section doesn't need scroll margin */
 #home {
 	scroll-margin-top: var(--nav-height);
+
 }
 
 @media (max-width: 720px) {
@@ -1545,6 +1546,7 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#031026 0%, #07
 	/* Ensure hero container has proper spacing */
 	.hero .container {
 		padding: 0 16px;
+		
 	}
 	
 	/* Fix navbar hiding elements - add scroll margin to all sections */
@@ -1554,9 +1556,12 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#031026 0%, #07
 	
 	/* Extra margin for first section */
 	#home {
-		scroll-margin-top: calc(var(--nav-height-mobile) + 20px);
+		height: auto;
+		padding-bottom: 60px;
 	}
 }
+
+
 
 /* Tablet sizes */
 @media (min-width: 721px) and (max-width: 1024px) {
