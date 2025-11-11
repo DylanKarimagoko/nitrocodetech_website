@@ -110,7 +110,6 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#031026 0%, #07
     cursor: pointer;
     flex-direction: column;
     gap: 5px;
-    z-index: 1400;
     position: relative;
 }
 
@@ -1209,7 +1208,7 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#031026 0%, #07
 
 	.nav-links {
 		position: fixed;
-		top: var(--nav-height);
+		top: 40px;
 		left: 0;
 		right: 0;
 		height: calc(100vh - var(--nav-height));
@@ -1225,7 +1224,7 @@ html,body{height:100%;margin:0;background:linear-gradient(180deg,#031026 0%, #07
 		transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
-		z-index: 1300;
+		z-index: -1;
 		box-shadow: 0 -8px 32px rgba(2,6,23,0.6);
 		border-top: 1px solid rgba(255,255,255,0.1);
 		list-style: none;
